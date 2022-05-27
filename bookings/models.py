@@ -8,5 +8,5 @@ class Technician(models.Model):
     featured_image = CloudinaryField('image', default='placeholder')
     excerpt = models.TextField(blank=True)
 
-def __str__(self):
-    return self.title
+    def __str__(self):
+        return self.title
